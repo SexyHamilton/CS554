@@ -23,6 +23,8 @@ app.use("/recipe", (req, res, next) => {
   }
 });
 
+//more middleware functions to be added.
+
 configRoutes(app);
 
 app.listen(3000, () => {
